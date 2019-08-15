@@ -8,6 +8,8 @@
 | Project&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Open&nbsp;Issues&nbsp;&nbsp; | Description |
 | ------------ | ------------ | ------------ | ------------ | ----------- |
 | [gocui](https://github.com/jroimartin/gocui)                 | ![](https://img.shields.io/github/stars/jroimartin/gocui.svg)             | ![](https://img.shields.io/github/forks/jroimartin/gocui.svg)            | ![](https://img.shields.io/github/issues/jroimartin/gocui.svg)                  | Minimalist Go package aimed at creating Console User Interfaces. |
+| [komanda-cli](https://github.com/mephux/komanda-cli)                 | ![](https://img.shields.io/github/stars/mephux/komanda-cli.svg)             | ![](https://img.shields.io/github/forks/mephux/komanda-cli.svg)            | ![](https://img.shields.io/github/issues/mephux/komanda-cli.svg)                  | The project goal is to build the best client for developers that use IRC for their projects, follow others or getting help on a new language or framework. |
+| [vuls](https://github.com/future-architect/vuls)                 | ![](https://img.shields.io/github/stars/future-architect/vuls.svg)             | ![](https://img.shields.io/github/forks/future-architect/vuls.svg)            | ![](https://img.shields.io/github/issues/future-architect/vuls.svg)                  | Vulnerability scanner for Linux/FreeBSD, agentless, written in golang.|
 
 ## Web Frameworks
 
