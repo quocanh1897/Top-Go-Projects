@@ -1,6 +1,15 @@
-# Top Go Web Frameworks
-A list of popular github projects related to Go web framework (ranked by stars automatically)
-Please update **list.txt** (via Pull Request)
+# Go Frameworks
+
+1. CLI
+2. Web
+
+## CLI
+
+| Project&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Open&nbsp;Issues&nbsp;&nbsp; | Description |
+| ------------ | ------------ | ------------ | ------------ | ----------- |
+| [gocui](https://github.com/jroimartin/gocui)                 | ![](https://img.shields.io/github/stars/jroimartin/gocui.svg)             | ![](https://img.shields.io/github/forks/jroimartin/gocui.svg)            | ![](https://img.shields.io/github/issues/jroimartin/gocui.svg)                  | Minimalist Go package aimed at creating Console User Interfaces. |
+
+## Web Frameworks
 
 | Project&nbsp;Name | &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Open&nbsp;Issues&nbsp;&nbsp; | Description |
 | ------------ | ------------ | ------------ | ------------ | ----------- |
