@@ -5,6 +5,8 @@
   - [Console UI](#console-ui)
   - [Web Frameworks](#web-frameworks)
   - [Game](#game)
+    - [Game engine](#game-engine)
+    - [Game written by Go](#game-written-by-go)
 
 ## Command Line
 
@@ -86,10 +88,31 @@
 
 ## Game
 
+### Game engine
+
 |                          Repo                          |                  &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp;                  |            &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp;             |                       Description                         |
 | ------------------------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |---------------------------------------------------------- |
+| [ebiten](https://github.com/hajimehoshi/ebiten)         | ![alt-txt](http://githubbadges.com/star.svg?user=hajimehoshi&repo=ebiten&style=flat)       | ![fork-count](https://img.shields.io/github/forks/hajimehoshi/ebiten.svg)       |A dead simple 2D game library in Go.           |
+| [engo](https://github.com/EngoEngine/engo)         | ![alt-txt](http://githubbadges.com/star.svg?user=EngoEngine&repo=engo&style=flat)       | ![fork-count](https://img.shields.io/github/forks/EngoEngine/engo.svg)       |An open-source 2D game engine written in Go.         |
 | [termloop](https://github.com/JoelOtter/termloop)      | ![alt-txt](http://githubbadges.com/star.svg?user=JoelOtter&repo=termloop&style=flat)    | ![fork-count](https://img.shields.io/github/forks/JoelOtter/termloop.svg)    |Terminal-based game engine for Go, built on top of Termbox |
-| [gotetris](https://github.com/jjinux/gotetris)         | ![alt-txt](http://githubbadges.com/star.svg?user=jjinux&repo=gotetris&style=flat)       | ![fork-count](https://img.shields.io/github/forks/jjinux/gotetris.svg)       |a console-based version of Tetris written in Go.           |
+| [engine](https://github.com/g3n/engine)         | ![alt-txt](http://githubbadges.com/star.svg?user=g3n&repo=engine&style=flat)       | ![fork-count](https://img.shields.io/github/forks/g3n/engine.svg)       |Go 3D Game Engine.|
+| [engine](https://github.com/azul3d/engine)         | ![alt-txt](http://githubbadges.com/star.svg?user=azul3d&repo=engine&style=flat)       | ![fork-count](https://img.shields.io/github/forks/azul3d/engine.svg)       | A 3D game engine written in Go.           |
+| [GarageEngine](https://github.com/vova616/GarageEngine)         | ![alt-txt](http://githubbadges.com/star.svg?user=vova616&repo=GarageEngine&style=flat)       | ![fork-count](https://img.shields.io/github/forks/vova616/GarageEngine.svg)       |Game engine written in Go.           |
+| [go-sdl2](https://github.com/veandco/go-sdl2)         | ![alt-txt](http://githubbadges.com/star.svg?user=veandco&repo=go-sdl2&style=flat)       | ![fork-count](https://img.shields.io/github/forks/veandco/go-sdl2.svg)       |Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).           |
+| [gonet](https://github.com/xtaci/gonet)         | ![alt-txt](http://githubbadges.com/star.svg?user=xtaci&repo=gonet&style=flat)       | ![fork-count](https://img.shields.io/github/forks/xtaci/gonet.svg)       |A Game Server Skeleton in golang.         |
+| [goworld](https://github.com/xiaonanln/goworld)         | ![alt-txt](http://githubbadges.com/star.svg?user=xiaonanln&repo=goworld&style=flat)       | ![fork-count](https://img.shields.io/github/forks/xiaonanln/goworld.svg)       |Scalable Distributed Game Server Engine with Hot Swapping in Golang.         |
+| [leaf](https://github.com/name5566/leaf)         | ![alt-txt](http://githubbadges.com/star.svg?user=name5566&repo=leaf&style=flat)       | ![fork-count](https://img.shields.io/github/forks/name5566/leaf.svg)       |A game server framework in Go.         |
+| [nano](https://github.com/lonng/nano)         | ![alt-txt](http://githubbadges.com/star.svg?user=lonng&repo=nano&style=flat)       | ![fork-count](https://img.shields.io/github/forks/lonng/nano.svg)       |Lightweight, facility, high performance golang based game server framework         |
+| [oak](https://github.com/oakmound/oak)         | ![alt-txt](http://githubbadges.com/star.svg?user=oakmound&repo=oak&style=flat)       | ![fork-count](https://img.shields.io/github/forks/oakmound/oak.svg)       |A pure Go game engine.         |
+| [pixel](https://github.com/faiface/pixel)         | ![alt-txt](http://githubbadges.com/star.svg?user=faiface&repo=pixel&style=flat)       | ![fork-count](https://img.shields.io/github/forks/faiface/pixel.svg)       |A hand-crafted 2D game library in Go.         |
+| [raylib-go](https://github.com/gen2brain/raylib-go)         | ![alt-txt](http://githubbadges.com/star.svg?user=gen2brain&repo=raylib-go&style=flat)       | ![fork-count](https://img.shields.io/github/forks/gen2brain/raylib-go.svg)       |A pure Go game engine.         |
+
+### Game written by Go
+
+|                          Repo                          |                  &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp;                  |            &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp;             |                       Description                         |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |---------------------------------------------------------- |
+| [gotetris](https://github.com/jjinux/gotetris)         | ![alt-txt](http://githubbadges.com/star.svg?user=jjinux&repo=gotetris&style=flat)       | ![fork-count](https://img.shields.io/github/forks/jjinux/gotetris.svg)       |A console-based version of Tetris written in Go.           |
 | [snake-game](https://github.com/DyegoCosta/snake-game) | ![alt-txt](http://githubbadges.com/star.svg?user=DyegoCosta&repo=snake-game&style=flat) | ![fork-count](https://img.shields.io/github/forks/DyegoCosta/snake-game.svg) |Terminal-based Snake game.                                 |
-| [sokoban-go](https://github.com/rn2dy/sokoban-go)      | ![alt-txt](http://githubbadges.com/star.svg?user=rn2dy&repo=sokoban-go&style=flat)      | ![fork-count](https://img.shields.io/github/forks/rn2dy/sokoban-go.svg)      |sokoban game in terminal written with go.                  |
+| [sokoban-go](https://github.com/rn2dy/sokoban-go)      | ![alt-txt](http://githubbadges.com/star.svg?user=rn2dy&repo=sokoban-go&style=flat)      | ![fork-count](https://img.shields.io/github/forks/rn2dy/sokoban-go.svg)      |Sokoban game in terminal written with go.                  |
 | [go-tetris](https://github.com/MichaelS11/go-tetris)   | ![alt-txt](http://githubbadges.com/star.svg?user=MichaelS11&repo=go-tetris&style=flat)  | ![fork-count](https://img.shields.io/github/forks/MichaelS11/go-tetris.svg)  |Golang Tetris for console window with optional AI.         |
+| [go-astar](https://github.com/beefsack/go-astar)         | ![alt-txt](http://githubbadges.com/star.svg?user=beefsack&repo=go-astar&style=flat)       | ![fork-count](https://img.shields.io/github/forks/beefsack/go-astar.svg)       |Go implementation of the A* search algorithm.|
