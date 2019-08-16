@@ -3,7 +3,7 @@
 - [Go Frameworks](#go-frameworks)
   - [Command Line](#command-line)
   - [Console UI](#console-ui)
-    - [Engine/Library](#enginelibrary)
+    - [Console UI Engine/Library](#console-ui-enginelibrary)
   - [Web Frameworks](#web-frameworks)
   - [Game](#game)
     - [Game engine](#game-engine)
@@ -49,7 +49,7 @@
 | [clui](https://github.com/VladimirMarkelov/clui)          | ![alt-txt](http://githubbadges.com/star.svg?user=VladimirMarkelov&repo=clui&style=flat)    | ![fork-count](https://img.shields.io/github/forks/VladimirMarkelov/clui.svg)    | Terminal cli app that checks the availability of domains for different configurations of keywords. |
 | [gomainr](https://github.com/MichaelThessel/gomainr)      | ![alt-txt](http://githubbadges.com/star.svg?user=MichaelThessel&repo=gomainr&style=flat)   | ![fork-count](https://img.shields.io/github/forks/MichaelThessel/gomainr.svg)   | Terminal cli app that checks the availability of domains for different configurations of keywords. |
 
-### Engine/Library
+### Console UI Engine/Library
 
 |                        Repo                        |                 &nbsp;&nbsp;&nbsp;&nbsp;Stars&nbsp;&nbsp;&nbsp;&nbsp;                 |           &nbsp;&nbsp;&nbsp;&nbsp;Forks&nbsp;&nbsp;&nbsp;&nbsp;            |                                                                         Description                                                                          |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
