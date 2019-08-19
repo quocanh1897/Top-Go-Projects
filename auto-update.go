@@ -38,8 +38,8 @@ const (
 	- [Game engine](#game-engine)
 `
 	headerTable = `
-| Repo | Stars | Forks |  Description |
-| ---- | ----- | ----- | ------------ |
+| Repo | Stars  |  Forks  |  Description |
+| ---- | :----- | :-----: | ------------ |
 `
 	footer = "\n*Last Update: %v*\n"
 )
