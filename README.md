@@ -77,7 +77,7 @@
 | [mux](https://github.com/gorilla/mux) | **9789** | **1056**  | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
 | [httprouter](https://github.com/julienschmidt/httprouter) | **9781** | **979**  | A high performance HTTP request router that scales well |
 | [fasthttp](https://github.com/valyala/fasthttp) | **9457** | **824**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
-| [chi](https://github.com/go-chi/chi) | **6137** | **428**  | lightweight, idiomatic and composable router for building Go HTTP services |
+| [chi](https://github.com/go-chi/chi) | **6138** | **428**  | lightweight, idiomatic and composable router for building Go HTTP services |
 | [buffalo](https://github.com/gobuffalo/buffalo) | **4809** | **377**  | Rapid Web Development w/ Go |
 | [go-swagger](https://github.com/go-swagger/go-swagger) | **4020** | **657**  | Swagger 2.0 implementation for go |
 | [goa](https://github.com/goadesign/goa) | **3521** | **401**  | Design-based APIs and microservices in Go |
@@ -122,4 +122,4 @@
 | [raylib-go](https://github.com/gen2brain/raylib-go) | **386** | **37**  | Go bindings for raylib, a simple and easy-to-use library to learn videogames programming. |
 | [GarageEngine](https://github.com/vova616/GarageEngine) | **313** | **26**  | Game engine written in Go (golang). |
 
-*Last Update: 2019-08-20T00:58:46+07:00*
+*Last Update: 2019-08-20T01:18:29+07:00*

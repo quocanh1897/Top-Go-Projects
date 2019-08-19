@@ -53,7 +53,7 @@ func main() {
 
 	writeTitle()
 
-	byteContents, err := ioutil.ReadFile("README.md")
+	byteContents, err := ioutil.ReadFile("list.repo")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -68,14 +68,15 @@ func main() {
 				Description: url,
 			}
 			repos = append(repos, header)
-			fmt.Printf("Repository: %v\n", header)
+			fmt.Printf("%v\n", header.Description)
 		}
 
 		idx := strings.Index(url, "https://github.com/")
 		if idx != -1 {
-			idx2 := strings.Index(url, ")")
+			// idx2 := strings.Index(url, "\n")
+			// fmt.Println(url[idx:idx2])
 
-			req := fmt.Sprintf("https://api.github.com/repos/%s?access_token=%s", url[idx+19:idx2], accessToken)
+			req := fmt.Sprintf("https://api.github.com/repos/%s?access_token=%s", url[idx+19:], accessToken)
 			fmt.Println(req)
 
 			res, err := http.Get(req)
@@ -135,9 +136,7 @@ func saveRanking(repos []Repo) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("\n\n")
 	for _, repo := range repos {
-		fmt.Println(repo)
 		if len(repo.Name) == 0 {
 			readme.WriteString(fmt.Sprintf("\n%s\n%s", repo.Description, headerTable))
 		} else {
