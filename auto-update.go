@@ -74,10 +74,10 @@ func main() {
 		idx := strings.Index(url, "https://github.com/")
 		if idx != -1 {
 			// idx2 := strings.Index(url, "\n")
-			// fmt.Println(url[idx:idx2])
+			fmt.Println(url[idx:idx2])
 
 			req := fmt.Sprintf("https://api.github.com/repos/%s?access_token=%s", url[idx+19:], accessToken)
-			fmt.Println(req)
+			// fmt.Println(req)
 
 			res, err := http.Get(req)
 			if err != nil {
@@ -92,7 +92,7 @@ func main() {
 				log.Fatal(err)
 			}
 			repos = append(repos, repo)
-			fmt.Printf("Repository: %v\n", repo)
+			// fmt.Printf("Repository: %v\n", repo)
 
 		}
 
