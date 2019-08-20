@@ -86,7 +86,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [logrus](https://github.com/sirupsen/logrus) | **12086** | **1412**  | Structured, pluggable logging for Go. |
+| [logrus](https://github.com/sirupsen/logrus) | **12087** | **1412**  | Structured, pluggable logging for Go. |
 | [zap](https://github.com/uber-go/zap) | **7544** | **576**  | Blazing fast, structured, leveled logging in Go. |
 | [go-spew](https://github.com/davecgh/go-spew) | **3326** | **205**  | Implements a deep pretty printer for Go data structures to aid in debugging |
 | [glog](https://github.com/golang/glog) | **2315** | **578**  | Leveled execution logs for Go |
@@ -105,7 +105,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gorm](https://github.com/jinzhu/gorm) | **14848** | **1689**  | The fantastic ORM library for Golang, aims to be developer friendly |
+| [gorm](https://github.com/jinzhu/gorm) | **14848** | **1688**  | The fantastic ORM library for Golang, aims to be developer friendly |
 | [xorm](https://github.com/go-xorm/xorm) | **5254** | **669**  | Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle |
 | [gorp](https://github.com/go-gorp/gorp) | **3085** | **353**  | Go Relational Persistence - an ORM-ish library for Go |
 | [pg](https://github.com/go-pg/pg) | **3039** | **239**  | Golang ORM with focus on PostgreSQL features and performance |
@@ -125,7 +125,7 @@
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
 | [gin](https://github.com/gin-gonic/gin) | **30398** | **3504**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [beego](https://github.com/astaxie/beego) | **21596** | **4370**  | beego is an open-source, high-performance web framework for the Go programming language. |
+| [beego](https://github.com/astaxie/beego) | **21597** | **4371**  | beego is an open-source, high-performance web framework for the Go programming language. |
 | [iris](https://github.com/kataras/iris) | **15862** | **1706**  | 我愛中國人 https://bit.ly/謝謝 | The community-driven web framework for Go. Automatic HTTPS and Public Address, MVC and more. https://bit.ly/iriscandothat1 https://bit.ly/iriscandothat3 | |
 | [echo](https://github.com/labstack/echo) | **14798** | **1350**  | High performance, minimalist Go web framework |
 | [revel](https://github.com/revel/revel) | **11269** | **1340**  | A high productivity, full-stack web framework for the Go language. |
@@ -146,8 +146,6 @@
 | [tango](https://github.com/lunny/tango) | **819** | **108**  | This is only a mirror and Moved to https://gitea.com/lunny/tango |
 | [goji](https://github.com/goji/goji) | **768** | **61**  | Goji is a minimalistic and flexible HTTP request multiplexer for Go (golang) |
 | [neo](https://github.com/ivpusic/neo) | **393** | **40**  | Go Web Framework |
-| [webgo](https://github.com/bnkamalesh/webgo) | **75** | **7**  | A mini-toolkit/micro-framework to build web apps; with handler chaining, middleware and context injection, with standard library compliant HTTP handlers(i.e. http.HandlerFunc). |
-| [gorest](https://github.com/tideland/gorest) | **29** | **1**  | Tideland GoREST (RESTful Server Systems) |
 
 ## Game
 
@@ -157,7 +155,7 @@
 | [gotetris](https://github.com/jjinux/gotetris) | **208** | **26**  | This is a console-based version of Tetris written in Go |
 | [snake-game](https://github.com/DyegoCosta/snake-game) | **138** | **32**  | Terminal-based Snake game |
 | [sokoban-go](https://github.com/rn2dy/sokoban-go) | **33** | **6**  | sokoban game in terminal written with go |
-| [go-tetris](https://github.com/MichaelS11/go-tetris) | **29** | **1**  | Golang Tetris for console window with optional AI |
+| [go-tetris](https://github.com/MichaelS11/go-tetris) | **30** | **1**  | Golang Tetris for console window with optional AI |
 
 ### Game engine
 
@@ -182,3 +180,11 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
+| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31753** | **8787**  | A golang ebook intro how to build a web with golang |
+| [GoBooks](https://github.com/dariubs/GoBooks) | **6847** | **912**  | List of Golang books |
+| [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2359** | **211**  | Learn how to write webapps without a framework in Go. |
+| [go101](https://github.com/go101/go101) | **2060** | **131**  | An online book focusing on Go syntax/semantics. |
+| [learninggo](https://github.com/miekg/learninggo) | **365** | **83**  | Learning Go Book in mmark |
+| [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
+
+*Last Update: 2019-08-20T17:07:40+07:00*
