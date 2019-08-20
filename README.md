@@ -1,16 +1,17 @@
 # TOP Go Frameworks
 
-- [Command Line](#command-line)
-- [Console UI](#console-ui)
-	- [Console UI Engine/Library](#console-ui-enginelibrary)
-- [Web Frameworks](#web-frameworks)
-- [Game](#game)
-	- [Game engine](#game-engine)
+- [TOP Go Frameworks](#top-go-frameworks)
+	- [Command Line](#command-line)
+	- [Console UI](#console-ui)
+		- [Console UI Engine/Library](#console-ui-enginelibrary)
+	- [Web Frameworks](#web-frameworks)
+	- [Game](#game)
+		- [Game engine](#game-engine)
 
 ## Command Line
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [cobra](https://github.com/spf13/cobra) | **13525** | **1153**  | A Commander for modern Go CLI interactions |
 | [cli](https://github.com/urfave/cli) | **11594** | **933**  | A simple, fast, and fun package for building command line apps in Go |
 | [kingpin](https://github.com/alecthomas/kingpin) | **2584** | **192**  | A Go (golang) command line and flag parser |
@@ -26,7 +27,7 @@
 ## Console UI
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [lazygit](https://github.com/jesseduffield/lazygit) | **13123** | **433**  | simple terminal UI for git commands |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | **11198** | **388**  | The lazier way to manage everything docker |
 | [vuls](https://github.com/future-architect/vuls) | **6748** | **713**  | Agent-less vulnerability scanner for Linux, FreeBSD, Container Image, Running Container, WordPress, Programming language libraries, Network devices |
@@ -51,7 +52,7 @@
 ### Console UI Engine/Library
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [termui](https://github.com/gizak/termui) | **8978** | **557**  | Golang terminal dashboard |
 | [gocui](https://github.com/jroimartin/gocui) | **5440** | **319**  | Minimalist Go package aimed at creating Console User Interfaces. |
 | [termbox-go](https://github.com/nsf/termbox-go) | **3504** | **289**  | Pure Go termbox implementation |
@@ -67,7 +68,7 @@
 ## Web Frameworks
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [gin](https://github.com/gin-gonic/gin) | **30390** | **3503**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
 | [beego](https://github.com/astaxie/beego) | **21591** | **4371**  | beego is an open-source, high-performance web framework for the Go programming language. |
 | [iris](https://github.com/kataras/iris) | **15858** | **1706**  | 我愛中國人 https://bit.ly/謝謝 | The community-driven web framework for Go. Automatic HTTPS and Public Address, MVC and more. https://bit.ly/iriscandothat1 https://bit.ly/iriscandothat3 | |
@@ -96,7 +97,7 @@
 ## Game
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [go-astar](https://github.com/beefsack/go-astar) | **329** | **33**  | Go implementation of the A* search algorithm |
 | [gotetris](https://github.com/jjinux/gotetris) | **208** | **26**  | This is a console-based version of Tetris written in Go |
 | [snake-game](https://github.com/DyegoCosta/snake-game) | **137** | **32**  | Terminal-based Snake game |

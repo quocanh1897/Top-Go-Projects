@@ -39,7 +39,7 @@ const (
 `
 	headerTable = `
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :----: | :-----: | ------------ |
 `
 	footer = "\n*Last Update: %v*\n"
 )
