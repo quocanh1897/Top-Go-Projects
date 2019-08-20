@@ -186,5 +186,6 @@
 | [go101](https://github.com/go101/go101) | **2060** | **131**  | An online book focusing on Go syntax/semantics. |
 | [learninggo](https://github.com/miekg/learninggo) | **365** | **83**  | Learning Go Book in mmark |
 | [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
+| [go-advanced](https://github.com/zalopay-oss/go-advanced) | **38** | **4**  | A small Vietnamese Go book compiled by ZaloPay teams. |
 
-*Last Update: 2019-08-20T17:07:40+07:00*
+*Last Update: 2019-08-20T17:09:30+07:00*
