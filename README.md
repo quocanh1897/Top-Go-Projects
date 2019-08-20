@@ -11,14 +11,14 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [cobra](https://github.com/spf13/cobra) | **13528** | **1153**  | A Commander for modern Go CLI interactions |
-| [cli](https://github.com/urfave/cli) | **11597** | **933**  | A simple, fast, and fun package for building command line apps in Go |
+| [cobra](https://github.com/spf13/cobra) | **13530** | **1153**  | A Commander for modern Go CLI interactions |
+| [cli](https://github.com/urfave/cli) | **11598** | **933**  | A simple, fast, and fun package for building command line apps in Go |
 | [kingpin](https://github.com/alecthomas/kingpin) | **2584** | **192**  | A Go (golang) command line and flag parser |
 | [go-flags](https://github.com/jessevdk/go-flags) | **1518** | **179**  | go command line option parser |
 | [readline](https://github.com/chzyer/readline) | **1376** | **144**  | Readline is a pure go(golang) implementation for GNU-Readline kind library |
 | [docopt.go](https://github.com/docopt/docopt.go) | **1175** | **98**  | A command-line arguments parser that will make you smile. |
 | [cli](https://github.com/mitchellh/cli) | **1002** | **76**  | A Go library for implementing command-line interfaces. |
-| [pflag](https://github.com/spf13/pflag) | **759** | **175**  | Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags. |
+| [pflag](https://github.com/spf13/pflag) | **761** | **175**  | Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags. |
 | [go-arg](https://github.com/alexflint/go-arg) | **750** | **41**  | Struct-based argument parsing in Go |
 | [mow.cli](https://github.com/jawher/mow.cli) | **624** | **44**  | A versatile library for building CLI applications in Go |
 | [commandeer](https://github.com/jaffee/commandeer) | **93** | **5**  | Automatically sets up command line flags based on struct fields and tags. |
@@ -28,7 +28,7 @@
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
 | [lazygit](https://github.com/jesseduffield/lazygit) | **13124** | **433**  | simple terminal UI for git commands |
-| [lazydocker](https://github.com/jesseduffield/lazydocker) | **11198** | **388**  | The lazier way to manage everything docker |
+| [lazydocker](https://github.com/jesseduffield/lazydocker) | **11199** | **388**  | The lazier way to manage everything docker |
 | [vuls](https://github.com/future-architect/vuls) | **6749** | **715**  | Agent-less vulnerability scanner for Linux, FreeBSD, Container Image, Running Container, WordPress, Programming language libraries, Network devices |
 | [jid](https://github.com/simeji/jid) | **5293** | **110**  | json incremental digger |
 | [httplab](https://github.com/gchaincl/httplab) | **3416** | **119**  | The interactive web server |
@@ -40,7 +40,7 @@
 | [cointop](https://github.com/miguelmota/cointop) | **1109** | **81**  | The fastest and most interactive terminal based UI application for tracking cryptocurrencies |
 | [rat](https://github.com/ericfreese/rat) | **1098** | **34**  | Compose shell commands to build interactive terminal applications |
 | [mop](https://github.com/mop-tracker/mop) | **1018** | **201**  | Stock market tracker for hackers |
-| [mpb](https://github.com/vbauerster/mpb) | **715** | **42**  | multi progress bar for Go cli applications |
+| [mpb](https://github.com/vbauerster/mpb) | **716** | **42**  | multi progress bar for Go cli applications |
 | [aurora](https://github.com/logrusorgru/aurora) | **643** | **23**  | Golang ultimate ANSI-colors that supports Printf/Sprintf methods |
 | [pxl](https://github.com/ichinaski/pxl) | **617** | **27**  | Display images in the terminal |
 | [progressbar](https://github.com/schollz/progressbar) | **584** | **37**  | A really basic thread-safe progress bar for Golang applications |
@@ -58,7 +58,7 @@
 | [tview](https://github.com/rivo/tview) | **3212** | **187**  | Rich interactive widgets for terminal-based UIs written in Go |
 | [go-prompt](https://github.com/c-bata/go-prompt) | **2357** | **117**  | Building powerful interactive prompts in Go, inspired by python-prompt-toolkit. |
 | [tui-go](https://github.com/marcusolsson/tui-go) | **1714** | **89**  | A UI library for terminal applications. |
-| [uiprogress](https://github.com/gosuri/uiprogress) | **1544** | **89**  | A go library to render progress bars in terminal applications |
+| [uiprogress](https://github.com/gosuri/uiprogress) | **1545** | **89**  | A go library to render progress bars in terminal applications |
 | [gcli](https://github.com/tcnksm/gcli) | **871** | **75**  | The easy way to build Golang command-line application. |
 | [uilive](https://github.com/gosuri/uilive) | **838** | **47**  | uilive is a go library for updating terminal output in realtime |
 | [termdash](https://github.com/mum4k/termdash) | **818** | **34**  | Terminal based dashboard. |
@@ -69,12 +69,12 @@
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
 | [ui](https://github.com/andlabs/ui) | **7012** | **616**  | Platform-native GUI library for Go. |
-| [fyne](https://github.com/fyne-io/fyne) | **6396** | **247**  | Cross platform GUI in Go based on Material Design |
+| [fyne](https://github.com/fyne-io/fyne) | **6397** | **247**  | Cross platform GUI in Go based on Material Design |
 | [qt](https://github.com/therecipe/qt) | **6122** | **438**  | Qt binding for Go (Golang) with support for Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly |
 | [webview](https://github.com/zserge/webview) | **4697** | **342**  | Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and MSHTML (Windows) |
 | [robotgo](https://github.com/go-vgo/robotgo) | **4444** | **394**  | RobotGo, Go Native cross-platform GUI automation |
 | [walk](https://github.com/lxn/walk) | **3716** | **568**  | A Windows GUI toolkit for the Go Programming Language |
-| [app](https://github.com/maxence-charriere/app) | **2965** | **126**  | A WebAssembly framework to build GUI with Go, HTML and CSS. |
+| [app](https://github.com/maxence-charriere/app) | **2966** | **126**  | A WebAssembly framework to build GUI with Go, HTML and CSS. |
 | [go-astilectron](https://github.com/asticode/go-astilectron) | **2697** | **179**  | Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron) |
 | [go-gtk](https://github.com/mattn/go-gtk) | **1464** | **205**  | Go binding for GTK |
 | [go-sciter](https://github.com/sciter-sdk/go-sciter) | **1456** | **175**  | Golang bindings of Sciter: the Embeddable HTML/CSS/script engine for modern UI development |
@@ -106,7 +106,7 @@
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
 | [gorm](https://github.com/jinzhu/gorm) | **14848** | **1688**  | The fantastic ORM library for Golang, aims to be developer friendly |
-| [xorm](https://github.com/go-xorm/xorm) | **5254** | **669**  | Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle |
+| [xorm](https://github.com/go-xorm/xorm) | **5255** | **669**  | Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle |
 | [gorp](https://github.com/go-gorp/gorp) | **3085** | **353**  | Go Relational Persistence - an ORM-ish library for Go |
 | [pg](https://github.com/go-pg/pg) | **3039** | **239**  | Golang ORM with focus on PostgreSQL features and performance |
 | [sqlboiler](https://github.com/volatiletech/sqlboiler) | **2288** | **225**  | Generate a Go ORM tailored to your database schema. |
@@ -131,7 +131,7 @@
 | [revel](https://github.com/revel/revel) | **11269** | **1340**  | A high productivity, full-stack web framework for the Go language. |
 | [martini](https://github.com/go-martini/martini) | **10664** | **1089**  | Classy web framework for Go |
 | [mux](https://github.com/gorilla/mux) | **9794** | **1057**  | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
-| [httprouter](https://github.com/julienschmidt/httprouter) | **9785** | **980**  | A high performance HTTP request router that scales well |
+| [httprouter](https://github.com/julienschmidt/httprouter) | **9786** | **980**  | A high performance HTTP request router that scales well |
 | [fasthttp](https://github.com/valyala/fasthttp) | **9464** | **824**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
 | [chi](https://github.com/go-chi/chi) | **6142** | **428**  | lightweight, idiomatic and composable router for building Go HTTP services |
 | [buffalo](https://github.com/gobuffalo/buffalo) | **4810** | **378**  | Rapid Web Development w/ Go |
@@ -169,7 +169,7 @@
 | [engo](https://github.com/EngoEngine/engo) | **1089** | **92**  | Engo is an open-source 2D game engine written in Go. |
 | [gonet](https://github.com/xtaci/gonet) | **1052** | **293**  | A Game Server Skeleton in golang. |
 | [termloop](https://github.com/JoelOtter/termloop) | **1028** | **66**  | Terminal-based game engine for Go, built on top of Termbox |
-| [nano](https://github.com/lonng/nano) | **1006** | **155**  | Lightweight, facility, high performance golang based game server framework |
+| [nano](https://github.com/lonng/nano) | **1007** | **156**  | Lightweight, facility, high performance golang based game server framework |
 | [engine](https://github.com/g3n/engine) | **761** | **73**  | Go 3D Game Engine |
 | [oak](https://github.com/oakmound/oak) | **634** | **33**  | A pure Go game engine |
 | [engine](https://github.com/azul3d/engine) | **427** | **32**  | Azul3D - A 3D game engine written in Go! |
@@ -180,7 +180,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31753** | **8787**  | A golang ebook intro how to build a web with golang |
+| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31752** | **8787**  | A golang ebook intro how to build a web with golang |
 | [GoBooks](https://github.com/dariubs/GoBooks) | **6847** | **912**  | List of Golang books |
 | [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2359** | **211**  | Learn how to write webapps without a framework in Go. |
 | [go101](https://github.com/go101/go101) | **2060** | **131**  | An online book focusing on Go syntax/semantics. |
@@ -188,4 +188,4 @@
 | [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
 | [go-advanced](https://github.com/zalopay-oss/go-advanced) | **38** | **4**  | A small Vietnamese Go book compiled by ZaloPay teams. |
 
-*Last Update: 2019-08-20T17:09:30+07:00*
+*Last Update: 2019-08-20T17:49:33+07:00*
