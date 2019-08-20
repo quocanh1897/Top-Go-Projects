@@ -107,7 +107,7 @@
 ### Game engine
 
 | Repo | Stars  |  Forks  |  Description |
-| ---- | :----- | :-----: | ------------ |
+| ---- | :-----: | :-----: | ------------ |
 | [leaf](https://github.com/name5566/leaf) | **3081** | **867**  | A game server framework in Go (golang) |
 | [pixel](https://github.com/faiface/pixel) | **2461** | **143**  | A hand-crafted 2D game library in Go |
 | [ebiten](https://github.com/hajimehoshi/ebiten) | **1876** | **126**  | A dead simple 2D game library in Go |
