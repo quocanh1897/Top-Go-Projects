@@ -49,6 +49,57 @@ https://github.com/gosuri/uilive
 https://github.com/mum4k/termdash
 https://github.com/gosuri/uitable
 
+## GUI Application
+
+https://github.com/maxence-charriere/app
+https://github.com/fyne-io/fyne
+https://github.com/asticode/go-astilectron
+https://github.com/mattn/go-gtk
+https://github.com/sciter-sdk/go-sciter
+https://github.com/therecipe/qt
+https://github.com/andlabs/ui
+https://github.com/wailsapp/wails
+https://github.com/lxn/walk
+https://github.com/zserge/webview
+https://github.com/go-vgo/robotgo
+https://github.com/getlantern/systray
+https://github.com/deckarep/gosx-notifier
+
+## Logging
+
+https://github.com/golang/glog
+https://github.com/apex/log
+https://github.com/go-playground/log
+https://github.com/inconshreveable/log15
+https://github.com/Sirupsen/logrus
+https://github.com/hashicorp/logutils
+https://github.com/mgutz/logxi
+https://github.com/natefinch/lumberjack
+https://github.com/francoispqt/onelog
+https://github.com/cihub/seelog
+https://github.com/davecgh/go-spew
+https://github.com/hpcloud/tail
+https://github.com/uber-go/zap
+https://github.com/rs/zerolog
+
+## Object-Relational Mapping
+
+https://github.com/go-pg/pg
+https://github.com/jirfag/go-queryset
+https://github.com/huandu/go-sqlbuilder
+https://github.com/gosuri/go-store
+https://github.com/jinzhu/gorm
+https://github.com/go-gorp/gorp
+https://github.com/Fs02/grimoire
+https://github.com/gobuffalo/pop
+https://github.com/coocood/qbs
+https://github.com/go-reform/reform
+https://github.com/volatiletech/sqlboiler
+https://github.com/upper/db
+https://github.com/go-xorm/xorm
+https://github.com/albrow/zoom
+
+
 ## Web Frameworks
 
 https://github.com/gin-gonic/gin
@@ -100,3 +151,12 @@ https://github.com/oakmound/oak
 https://github.com/azul3d/engine
 https://github.com/gen2brain/raylib-go
 https://github.com/vova616/GarageEngine
+
+## Go E-Books
+
+https://github.com/astaxie/build-web-application-with-golang
+https://github.com/go101/go101
+https://github.com/dariubs/GoBooks
+https://github.com/GoBootcamp/book
+https://github.com/miekg/learninggo
+https://github.com/thewhitetulip/web-dev-golang-anti-textbook/
