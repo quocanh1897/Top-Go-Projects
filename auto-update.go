@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/schollz/progressbar/v2"
+	"github.com/schollz/progressbar"
 	"io/ioutil"
 	"log"
 	"net/http"
