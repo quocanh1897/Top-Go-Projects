@@ -11,6 +11,7 @@ import (
 	"strings"
 	"time"
 	"unicode"
+	"github.com/schollz/progressbar/v2"
 )
 
 // Repo describes a Github repository with additional field, last commit date
@@ -54,6 +55,7 @@ var (
 
 func main() {
 	accessToken := getAccessToken()
+	bar := progressbar.New(141)
 
 	writeTitle()
 
@@ -72,13 +74,15 @@ func main() {
 				Description: url,
 			}
 			repos = append(repos, header)
-			fmt.Printf("%v\n", header.Description)
+			// fmt.Printf("%v\n", header.Description)
+			bar.add(1)
 		}
 
 		idx := strings.Index(url, "https://github.com/")
 		if idx != -1 {
 			// idx2 := strings.Index(url, "\n")
-			fmt.Println(url[idx:])
+			// fmt.Println(url[idx:])
+			bar.add(1)
 
 			req := fmt.Sprintf("https://api.github.com/repos/%s?access_token=%s", url[idx+19:], accessToken)
 			// fmt.Println(req)
