@@ -1,16 +1,15 @@
 # TOP Go Projects
 
-- [TOP Go Projects](#top-go-projects)
-	- [Command Line](#command-line)
-	- [Console UI](#console-ui)
-		- [Console UI Engine/Library](#console-ui-enginelibrary)
-	- [GUI Application](#gui-application)
-	- [Logging](#logging)
-	- [Object-Relational Mapping](#object-relational-mapping)
-	- [Web Frameworks](#web-frameworks)
-	- [Game](#game)
-		- [Game engine](#game-engine)
-	- [Go E-Books](#go-e-books)
+- [Command Line](#command-line)
+- [Console UI](#console-ui)
+	- [Console UI Engine/Library](#console-ui-enginelibrary)
+- [Web Frameworks](#web-frameworks)
+- [Game](#game)
+	- [Game engine](#game-engine)
+- [GUI Application](#gui-application)
+- [Logging](#logging)
+- [Object-Relational Mapping](#object-relational-mapping)
+- [Go E-Books](#go-e-books)
 
 ## Command Line
 
@@ -185,3 +184,25 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
+| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31866** | **8817**  | A golang ebook intro how to build a web with golang |
+| [docker_practice](https://github.com/yeasy/docker_practice) | **14552** | **4153**  | Learn and understand Docker technologies, with real DevOps practice! |
+| [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) | **9006** | **1345**  | :books: 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿) |
+| [GoBooks](https://github.com/dariubs/GoBooks) | **6869** | **917**  | List of Golang books |
+| [go-internals](https://github.com/teh-cmc/go-internals) | **5600** | **228**  | A book about the internals of the Go programming language. |
+| [Go42](https://github.com/ffhelicopter/Go42) | **2740** | **325**  | 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。 |
+| [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2372** | **211**  | Learn how to write webapps without a framework in Go. |
+| [go101](https://github.com/go101/go101) | **2077** | **133**  | An online book focusing on Go syntax/semantics. |
+| [ethereum-development-with-go-book](https://github.com/miguelmota/ethereum-development-with-go-book) | **462** | **121**  | A little book on Ethereum Development with Go (golang) |
+| [learninggo](https://github.com/miekg/learninggo) | **367** | **83**  | Learning Go Book in mmark |
+| [learninggo](https://github.com/miekg/learninggo) | **367** | **83**  | Learning Go Book in mmark |
+| [concurrency-in-go-src](https://github.com/kat-co/concurrency-in-go-src) | **303** | **87**  | Full sourcecode for the book, "Concurrency in Go" published by O'Reilly. |
+| [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
+| [go-advanced](https://github.com/zalopay-oss/go-advanced) | **182** | **44**  | A small Vietnamese Go book compiled by ZaloPay teams. |
+| [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **142** | **52**  | This is the code repository for the book, Go Design Patterns, published by Packt |
+
+
+
+| Repo | Stars  |  Forks  |  Description |
+| ---- | :----: | :-----: | ------------ |
+
+*Last Update: 2019-08-28T10:29:38+07:00*

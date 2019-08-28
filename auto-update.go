@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"sort"
@@ -62,7 +61,7 @@ func main() {
 
 	byteContents, err := ioutil.ReadFile("list.repo")
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
 	}
 
 	lines := strings.Split(string(byteContents), "\n")
@@ -90,15 +89,15 @@ func main() {
 
 			res, err := http.Get(req)
 			if err != nil {
-				log.Fatal(err)
+				fmt.Println(err)
 			}
 			if res.StatusCode != 200 {
-				log.Fatal(res.Status)
+				fmt.Println(res.Status)
 			}
 
 			decoder := json.NewDecoder(res.Body)
 			if err = decoder.Decode(&repo); err != nil {
-				log.Fatal(err)
+				fmt.Println(err)
 			}
 			repos = append(repos, repo)
 			// fmt.Printf("Repository: %v\n", repo)
@@ -124,7 +123,7 @@ func trimSpaceAndSlash(r rune) bool {
 func getAccessToken() string {
 	tokenBytes, err := ioutil.ReadFile("access-token.tok")
 	if err != nil {
-		log.Fatal("Error occurs when getting access token")
+		fmt.Println("Error occurs when getting access token")
 	}
 	return strings.TrimSpace(string(tokenBytes))
 }
@@ -132,7 +131,7 @@ func getAccessToken() string {
 func writeTitle() {
 	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
 	}
 
 	readme.WriteString(head)
@@ -143,7 +142,7 @@ func saveRanking(repos []Repo) {
 	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
 	defer readme.Close()
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
 	}
 	for _, repo := range repos {
 		if len(repo.Name) == 0 {
@@ -158,7 +157,7 @@ func saveRanking(repos []Repo) {
 func writeFooter() {
 	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
 	}
 
 	readme.WriteString(fmt.Sprintf(footer, time.Now().Format(time.RFC3339)))
