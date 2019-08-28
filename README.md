@@ -1,15 +1,16 @@
 # TOP Go Projects
 
-- [Command Line](#command-line)
-- [Console UI](#console-ui)
-	- [Console UI Engine/Library](#console-ui-enginelibrary)
-- [Web Frameworks](#web-frameworks)
-- [Game](#game)
-	- [Game engine](#game-engine)
-- [GUI Application](#gui-application)
-- [Logging](#logging)
-- [Object-Relational Mapping](#object-relational-mapping)
-- [Go E-Books](#go-e-books)
+- [TOP Go Projects](#top-go-projects)
+	- [Command Line](#command-line)
+	- [Console UI](#console-ui)
+		- [Console UI Engine/Library](#console-ui-enginelibrary)
+	- [GUI Application](#gui-application)
+	- [Logging](#logging)
+	- [Object-Relational Mapping](#object-relational-mapping)
+	- [Web Frameworks](#web-frameworks)
+	- [Game](#game)
+		- [Game engine](#game-engine)
+	- [Go E-Books](#go-e-books)
 
 ## Command Line
 
@@ -190,7 +191,6 @@
 | [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) | **9006** | **1345**  | :books: 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿) |
 | [GoBooks](https://github.com/dariubs/GoBooks) | **6869** | **917**  | List of Golang books |
 | [go-internals](https://github.com/teh-cmc/go-internals) | **5600** | **228**  | A book about the internals of the Go programming language. |
-| [Go42](https://github.com/ffhelicopter/Go42) | **2740** | **325**  | 《Go语言四十二章经》详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。 |
 | [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2372** | **211**  | Learn how to write webapps without a framework in Go. |
 | [go101](https://github.com/go101/go101) | **2077** | **133**  | An online book focusing on Go syntax/semantics. |
 | [ethereum-development-with-go-book](https://github.com/miguelmota/ethereum-development-with-go-book) | **462** | **121**  | A little book on Ethereum Development with Go (golang) |
