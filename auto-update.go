@@ -149,7 +149,7 @@ func saveRanking(repos []Repo) {
 		if len(repo.Name) == 0 {
 			readme.WriteString(fmt.Sprintf("\n%s\n%s", repo.Description, headerTable))
 		} else {
-			readme.WriteString(fmt.Sprintf("| [%s](%s) | <span style=\"color:orange\">%d</span> | <span style=\"color:blue\">%d</span>  | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description))
+			readme.WriteString(fmt.Sprintf("| [%s](%s) | **%d** | **%d**  | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description))
 		}
 	}
 
