@@ -135,7 +135,7 @@
 | [revel](https://github.com/revel/revel) | **11287** | **1340**  | A high productivity, full-stack web framework for the Go language. |
 | [martini](https://github.com/go-martini/martini) | **10675** | **1089**  | Classy web framework for Go |
 | [mux](https://github.com/gorilla/mux) | **9838** | **1063**  | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
-| [httprouter](https://github.com/julienschmidt/httprouter) | **9826** | **980**  | A high performance HTTP request router that scales well |
+| [httprouter](https://github.com/julienschmidt/httprouter) | **9827** | **980**  | A high performance HTTP request router that scales well |
 | [fasthttp](https://github.com/valyala/fasthttp) | **9537** | **833**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
 | [chi](https://github.com/go-chi/chi) | **6201** | **430**  | lightweight, idiomatic and composable router for building Go HTTP services |
 | [buffalo](https://github.com/gobuffalo/buffalo) | **4828** | **381**  | Rapid Web Development w/ Go |
@@ -185,6 +185,7 @@
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
 | [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31866** | **8817**  | A golang ebook intro how to build a web with golang |
+| [the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) | **17009** | **4721**  | 《The Way to Go》中文译本，中文正式名《Go 入门指南》 |
 | [docker_practice](https://github.com/yeasy/docker_practice) | **14552** | **4153**  | Learn and understand Docker technologies, with real DevOps practice! |
 | [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) | **9006** | **1345**  | :books: 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿) |
 | [GoBooks](https://github.com/dariubs/GoBooks) | **6869** | **917**  | List of Golang books |
@@ -200,9 +201,4 @@
 | [go-advanced](https://github.com/zalopay-oss/go-advanced) | **182** | **44**  | A small Vietnamese Go book compiled by ZaloPay teams. |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **142** | **52**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-
-
-| Repo | Stars  |  Forks  |  Description |
-| ---- | :----: | :-----: | ------------ |
-
-*Last Update: 2019-08-28T10:29:38+07:00*
+*Last Update: 2019-08-28T10:31:32+07:00*
