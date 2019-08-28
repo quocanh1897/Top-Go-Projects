@@ -30,7 +30,7 @@ type Repo struct {
 }
 
 const (
-	head = `# TOP Go Frameworks
+	head = `# TOP Go Projects
 
 - [Command Line](#command-line)
 - [Console UI](#console-ui)
