@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/schollz/progressbar"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -12,6 +11,8 @@ import (
 	"strings"
 	"time"
 	"unicode"
+
+	"github.com/schollz/progressbar"
 )
 
 // Repo describes a Github repository with additional field, last commit date
@@ -56,7 +57,7 @@ var (
 func main() {
 	accessToken := getAccessToken()
 	bar := progressbar.New(141)
-	bar.RenderBlank() 
+	bar.RenderBlank()
 	writeTitle()
 
 	byteContents, err := ioutil.ReadFile("list.repo")
@@ -148,7 +149,7 @@ func saveRanking(repos []Repo) {
 		if len(repo.Name) == 0 {
 			readme.WriteString(fmt.Sprintf("\n%s\n%s", repo.Description, headerTable))
 		} else {
-			readme.WriteString(fmt.Sprintf("| [%s](%s) | **%d** | **%d**  | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description))
+			readme.WriteString(fmt.Sprintf("| [%s](%s) | <span style=\"color:orange\">%d</span> | <span style=\"color:blue\">%d</span>  | %s |\n", repo.Name, repo.URL, repo.Stars, repo.Forks, repo.Description))
 		}
 	}
 
