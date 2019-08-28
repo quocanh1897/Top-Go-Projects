@@ -1,16 +1,15 @@
 # TOP Go Projects
 
-- [TOP Go Projects](#top-go-projects)
-	- [Command Line](#command-line)
-	- [Console UI](#console-ui)
-		- [Console UI Engine/Library](#console-ui-enginelibrary)
-	- [GUI Application](#gui-application)
-	- [Logging](#logging)
-	- [Object-Relational Mapping](#object-relational-mapping)
-	- [Web Frameworks](#web-frameworks)
-	- [Game](#game)
-		- [Game engine](#game-engine)
-	- [Go E-Books](#go-e-books)
+- [Command Line](#command-line)
+- [Console UI](#console-ui)
+	- [Console UI Engine/Library](#console-ui-enginelibrary)
+- [Web Frameworks](#web-frameworks)
+- [Game](#game)
+	- [Game engine](#game-engine)
+- [GUI Application](#gui-application)
+- [Logging](#logging)
+- [Object-Relational Mapping](#object-relational-mapping)
+- [Go E-Books](#go-e-books)
 
 ## Command Line
 
@@ -110,8 +109,8 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gorm](https://github.com/jinzhu/gorm) | **14943** | **1700**  | The fantastic ORM library for Golang, aims to be developer friendly |
-| [xorm](https://github.com/go-xorm/xorm) | **5281** | **673**  | Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle |
+| [gorm](https://github.com/jinzhu/gorm) | **14944** | **1699**  | The fantastic ORM library for Golang, aims to be developer friendly |
+| [xorm](https://github.com/go-xorm/xorm) | **5282** | **673**  | Simple and Powerful ORM for Go, support mysql,postgres,tidb,sqlite3,mssql,oracle |
 | [gorp](https://github.com/go-gorp/gorp) | **3089** | **353**  | Go Relational Persistence - an ORM-ish library for Go |
 | [pg](https://github.com/go-pg/pg) | **3062** | **239**  | Golang ORM with focus on PostgreSQL features and performance |
 | [sqlboiler](https://github.com/volatiletech/sqlboiler) | **2302** | **226**  | Generate a Go ORM tailored to your database schema. |
@@ -129,7 +128,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gin](https://github.com/gin-gonic/gin) | **30645** | **3528**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [gin](https://github.com/gin-gonic/gin) | **30647** | **3528**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
 | [beego](https://github.com/astaxie/beego) | **21670** | **4393**  | beego is an open-source, high-performance web framework for the Go programming language. |
 | [iris](https://github.com/kataras/iris) | **15949** | **1713**  | The fastest community-driven web framework for Go. Webassembly, Automatic HTTPS with Public Domain, MVC, Routing on its bests, Sessions, Caching, Versioning API, Problem API, Websocket, Dependency Injection and more. Fully compatible with the standard library and 3rd-party middleware packages. https://bit.ly/謝謝 | https://bit.ly/iriscandothat1 | https://bit.ly/iriscandothat3 | |
 | [echo](https://github.com/labstack/echo) | **14870** | **1359**  | High performance, minimalist Go web framework |
@@ -142,7 +141,7 @@
 | [buffalo](https://github.com/gobuffalo/buffalo) | **4828** | **381**  | Rapid Web Development w/ Go |
 | [go-swagger](https://github.com/go-swagger/go-swagger) | **4068** | **663**  | Swagger 2.0 implementation for go |
 | [goa](https://github.com/goadesign/goa) | **3528** | **402**  | Design-based APIs and microservices in Go |
-| [go-restful](https://github.com/emicklei/go-restful) | **3394** | **524**  | package for building REST-style Web Services using Go |
+| [go-restful](https://github.com/emicklei/go-restful) | **3394** | **525**  | package for building REST-style Web Services using Go |
 | [go-json-rest](https://github.com/ant0ine/go-json-rest) | **3341** | **375**  | A quick and easy way to setup a RESTful JSON API |
 | [gizmo](https://github.com/nytimes/gizmo) | **2866** | **179**  | A Microservice Toolkit from The New York Times |
 | [macaron](https://github.com/go-macaron/macaron) | **2828** | **245**  | Package macaron is a high productive and modular web framework in Go. |
@@ -185,19 +184,21 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31866** | **8817**  | A golang ebook intro how to build a web with golang |
+| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31868** | **8817**  | A golang ebook intro how to build a web with golang |
 | [the-way-to-go_ZH_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) | **17009** | **4721**  | 《The Way to Go》中文译本，中文正式名《Go 入门指南》 |
 | [docker_practice](https://github.com/yeasy/docker_practice) | **14552** | **4153**  | Learn and understand Docker technologies, with real DevOps practice! |
 | [advanced-go-programming-book](https://github.com/chai2010/advanced-go-programming-book) | **9006** | **1345**  | :books: 《Go语言高级编程》开源图书，涵盖CGO、Go汇编语言、RPC实现、Protobuf插件实现、Web框架实现、分布式系统等高阶主题(完稿) |
-| [GoBooks](https://github.com/dariubs/GoBooks) | **6869** | **917**  | List of Golang books |
 | [go-internals](https://github.com/teh-cmc/go-internals) | **5600** | **228**  | A book about the internals of the Go programming language. |
+| [Go-SCP](https://github.com/OWASP/Go-SCP) | **3207** | **196**  | Go programming language secure coding practices guide |
 | [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2372** | **211**  | Learn how to write webapps without a framework in Go. |
 | [go101](https://github.com/go101/go101) | **2077** | **133**  | An online book focusing on Go syntax/semantics. |
+| [the-little-go-book](https://github.com/karlseguin/the-little-go-book) | **1408** | **164**  |  |
+| [go-for-javascript-developers](https://github.com/pazams/go-for-javascript-developers) | **757** | **79**  | A comparison between Go and Javascript |
 | [ethereum-development-with-go-book](https://github.com/miguelmota/ethereum-development-with-go-book) | **462** | **121**  | A little book on Ethereum Development with Go (golang) |
 | [learninggo](https://github.com/miekg/learninggo) | **367** | **83**  | Learning Go Book in mmark |
 | [concurrency-in-go-src](https://github.com/kat-co/concurrency-in-go-src) | **303** | **87**  | Full sourcecode for the book, "Concurrency in Go" published by O'Reilly. |
 | [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
-| [go-advanced](https://github.com/zalopay-oss/go-advanced) | **182** | **44**  | A small Vietnamese Go book compiled by ZaloPay teams. |
+| [go-advanced](https://github.com/zalopay-oss/go-advanced) | **183** | **45**  | A small Vietnamese Go book compiled by ZaloPay teams. |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **142** | **52**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2019-08-28T10:31:32+07:00*
+*Last Update: 2019-08-28T10:45:28+07:00*
