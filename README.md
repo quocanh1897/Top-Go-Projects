@@ -90,10 +90,10 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [logrus](https://github.com/sirupsen/logrus) | **12172** | **1418**  | Structured, pluggable logging for Go. |
+| [logrus](https://github.com/sirupsen/logrus) | **12173** | **1418**  | Structured, pluggable logging for Go. |
 | [zap](https://github.com/uber-go/zap) | **7592** | **576**  | Blazing fast, structured, leveled logging in Go. |
 | [go-spew](https://github.com/davecgh/go-spew) | **3342** | **205**  | Implements a deep pretty printer for Go data structures to aid in debugging |
-| [glog](https://github.com/golang/glog) | **2345** | **580**  | Leveled execution logs for Go |
+| [glog](https://github.com/golang/glog) | **2346** | **580**  | Leveled execution logs for Go |
 | [zerolog](https://github.com/rs/zerolog) | **2308** | **156**  | Zero Allocation JSON Logger |
 | [tail](https://github.com/hpcloud/tail) | **1552** | **315**  | Go package for reading from continously updated files (tail -f) |
 | [lumberjack](https://github.com/natefinch/lumberjack) | **1483** | **197**  | lumberjack is a log rolling package for Go |
@@ -128,17 +128,17 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gin](https://github.com/gin-gonic/gin) | **30644** | **3528**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [gin](https://github.com/gin-gonic/gin) | **30645** | **3528**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
 | [beego](https://github.com/astaxie/beego) | **21670** | **4393**  | beego is an open-source, high-performance web framework for the Go programming language. |
 | [iris](https://github.com/kataras/iris) | **15949** | **1713**  | The fastest community-driven web framework for Go. Webassembly, Automatic HTTPS with Public Domain, MVC, Routing on its bests, Sessions, Caching, Versioning API, Problem API, Websocket, Dependency Injection and more. Fully compatible with the standard library and 3rd-party middleware packages. https://bit.ly/謝謝 | https://bit.ly/iriscandothat1 | https://bit.ly/iriscandothat3 | |
 | [echo](https://github.com/labstack/echo) | **14870** | **1359**  | High performance, minimalist Go web framework |
-| [revel](https://github.com/revel/revel) | **11286** | **1340**  | A high productivity, full-stack web framework for the Go language. |
+| [revel](https://github.com/revel/revel) | **11287** | **1340**  | A high productivity, full-stack web framework for the Go language. |
 | [martini](https://github.com/go-martini/martini) | **10675** | **1089**  | Classy web framework for Go |
 | [mux](https://github.com/gorilla/mux) | **9838** | **1063**  | A powerful HTTP router and URL matcher for building Go web servers with 🦍 |
 | [httprouter](https://github.com/julienschmidt/httprouter) | **9826** | **980**  | A high performance HTTP request router that scales well |
-| [fasthttp](https://github.com/valyala/fasthttp) | **9536** | **833**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
+| [fasthttp](https://github.com/valyala/fasthttp) | **9537** | **833**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
 | [chi](https://github.com/go-chi/chi) | **6201** | **430**  | lightweight, idiomatic and composable router for building Go HTTP services |
-| [buffalo](https://github.com/gobuffalo/buffalo) | **4827** | **381**  | Rapid Web Development w/ Go |
+| [buffalo](https://github.com/gobuffalo/buffalo) | **4828** | **381**  | Rapid Web Development w/ Go |
 | [go-swagger](https://github.com/go-swagger/go-swagger) | **4068** | **663**  | Swagger 2.0 implementation for go |
 | [goa](https://github.com/goadesign/goa) | **3528** | **402**  | Design-based APIs and microservices in Go |
 | [go-restful](https://github.com/emicklei/go-restful) | **3394** | **524**  | package for building REST-style Web Services using Go |
@@ -184,12 +184,3 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) | **31866** | **8817**  | A golang ebook intro how to build a web with golang |
-| [GoBooks](https://github.com/dariubs/GoBooks) | **6869** | **917**  | List of Golang books |
-| [web-dev-golang-anti-textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) | **2372** | **211**  | Learn how to write webapps without a framework in Go. |
-| [go101](https://github.com/go101/go101) | **2077** | **133**  | An online book focusing on Go syntax/semantics. |
-| [learninggo](https://github.com/miekg/learninggo) | **367** | **83**  | Learning Go Book in mmark |
-| [book](https://github.com/GoBootcamp/book) | **238** | **68**  | Source code of the companion book/website |
-| [go-advanced](https://github.com/zalopay-oss/go-advanced) | **182** | **44**  | A small Vietnamese Go book compiled by ZaloPay teams. |
-
-*Last Update: 2019-08-28T10:12:46+07:00*
