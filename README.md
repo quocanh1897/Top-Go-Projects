@@ -201,4 +201,4 @@
 | [go-advanced](https://github.com/zalopay-oss/go-advanced) | **238** | **71**  | A small Vietnamese Go book compiled by ZaloPay teams. |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **153** | **60**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2019-11-21T11:45:56+07:00*
+*Last Update: 2019-11-21T11:49:04+07:00*
