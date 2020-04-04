@@ -55,6 +55,12 @@ var (
 
 func main() {
 	accessToken := getAccessToken()
+
+	if accessToken == "" {
+		fmt.Errorf("Please provide valid access token")
+		os.Exit(1)
+	}
+
 	bar := progressbar.New(141)
 	bar.RenderBlank()
 	writeTitle()
@@ -123,7 +129,9 @@ func trimSpaceAndSlash(r rune) bool {
 func getAccessToken() string {
 	tokenBytes, err := ioutil.ReadFile("access-token.tok")
 	if err != nil {
-		fmt.Println("Error occurs when getting access token")
+		fmt.Println("Try get accessToken from ENV OAuth ...")
+		token := os.Getenv("OAuth")
+		return token
 	}
 	return strings.TrimSpace(string(tokenBytes))
 }
