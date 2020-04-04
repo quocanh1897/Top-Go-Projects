@@ -36,7 +36,7 @@
 | [vuls](https://github.com/future-architect/vuls) | **7357** | **800**  | Agent-less vulnerability scanner for Linux, FreeBSD, Container Image, Running Container, WordPress, Programming language libraries, Network devices |
 | [jid](https://github.com/simeji/jid) | **5501** | **115**  | json incremental digger |
 | [httplab](https://github.com/gchaincl/httplab) | **3544** | **120**  | The interactive web server |
-| [color](https://github.com/fatih/color) | **3384** | **401**  | Color package for Go (golang) |
+| [color](https://github.com/fatih/color) | **3385** | **401**  | Color package for Go (golang) |
 | [dry](https://github.com/moncho/dry) | **2052** | **86**  | dry - A Docker manager for the terminal @ |
 | [lf](https://github.com/gokcehan/lf) | **1946** | **88**  | Terminal file manager |
 | [fac](https://github.com/mkchoi212/fac) | **1652** | **39**  | Easy-to-use CUI for fixing git conflicts |
@@ -201,4 +201,4 @@
 | [book](https://github.com/GoBootcamp/book) | **253** | **72**  | Source code of the companion book/website |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **182** | **72**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2020-04-04T06:55:07Z*
+*Last Update: 2020-04-04T06:57:20Z*
