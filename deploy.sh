@@ -8,6 +8,8 @@ AUTO_USERNAME="Travis CI"
 AUTO_EMAIL="dinhluchvc@gmail.com"
 # Branch
 AUTO_BRANCH="feature/add-travis-ci"
+# Go file
+SCRIPT_UPDATE="auto-update.go"
 
 
 # execute deploy
@@ -32,7 +34,7 @@ git fetch origin $AUTO_BRANCH
 git reset origin/$AUTO_BRANCH
 git checkout $AUTO_BRANCH
 
-go run list2md.go
+go run $SCRIPT_UPDATE
 
 git add -A .
 git commit -m "Auto Update at $CUR_TIME"
