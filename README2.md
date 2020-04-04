@@ -201,4 +201,4 @@
 | [book](https://github.com/GoBootcamp/book) | **253** | **72**  | Source code of the companion book/website |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **182** | **72**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2020-04-04T13:53:52+07:00*
+*Last Update: 2020-04-04T06:55:07Z*
