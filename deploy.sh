@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Your repo
-AUTO_REPO="https://thinhdanggroup:$OAuth@github.com/thinhdanggroup/travis-ci-autoupdate.git"
+AUTO_REPO="https://thinhdanggroup:$OAuth@github.com/thinhdanggroup/Top-Go-Projects.git"
 # Yourname for TravisCI
 AUTO_USERNAME="Travis CI"
 # Git Email
