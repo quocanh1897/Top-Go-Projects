@@ -36,6 +36,9 @@ git checkout $AUTO_BRANCH
 
 go run $SCRIPT_UPDATE
 
+rm README.md
+mv README2.md README.md
+
 git add -A .
 git commit -m "Auto Update at $CUR_TIME"
 git push -q origin $AUTO_BRANCH
