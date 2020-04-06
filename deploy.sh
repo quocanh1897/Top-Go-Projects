@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Your repo
-AUTO_REPO="https://thinhdanggroup:$OAuth@github.com/thinhdanggroup/Top-Go-Projects.git"
+AUTO_REPO="https://quocanh1897:$OAuth@github.com/quocanh1897/Top-Go-Projects.git"
 # Yourname for TravisCI
 AUTO_USERNAME="Travis CI"
 # Git Email
-AUTO_EMAIL="dinhluchvc@gmail.com"
+AUTO_EMAIL="quocanh1897@gmail.com"
 # Branch
-AUTO_BRANCH="feature/add-travis-ci"
+AUTO_BRANCH="master"
 # Go file
 SCRIPT_UPDATE="auto-update.go"
 
