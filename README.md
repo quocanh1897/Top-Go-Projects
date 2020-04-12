@@ -128,7 +128,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gin](https://github.com/gin-gonic/gin) | **36962** | **4248**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [gin](https://github.com/gin-gonic/gin) | **36963** | **4248**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
 | [beego](https://github.com/astaxie/beego) | **23646** | **4756**  | beego is an open-source, high-performance web framework for the Go programming language. |
 | [iris](https://github.com/kataras/iris) | **17907** | **1985**  | 感谢中国开发者 - https://bit.ly/謝謝 | The fastest community-driven web framework for Go. Webassembly, Automatic HTTPS with Public Domain, MVC, Sessions, Caching, Versioning API, Problem API, Websocket, Dependency Injection and more. Fully compatible with the standard library and 3rd-party middleware packages. | https://bit.ly/iriscandothat1 | https://bit.ly/iriscandothat3 | |
 | [echo](https://github.com/labstack/echo) | **16941** | **1539**  | High performance, minimalist Go web framework |
@@ -169,7 +169,7 @@
 | [pixel](https://github.com/faiface/pixel) | **2854** | **175**  | A hand-crafted 2D game library in Go |
 | [ebiten](https://github.com/hajimehoshi/ebiten) | **2655** | **183**  | A dead simple 2D game library in Go |
 | [goworld](https://github.com/xiaonanln/goworld) | **1453** | **274**  | Scalable Distributed Game Server Engine with Hot Swapping in Golang |
-| [go-sdl2](https://github.com/veandco/go-sdl2) | **1304** | **172**  | SDL2 binding for Go |
+| [go-sdl2](https://github.com/veandco/go-sdl2) | **1305** | **172**  | SDL2 binding for Go |
 | [nano](https://github.com/lonng/nano) | **1235** | **201**  | Lightweight, facility, high performance golang based game server framework |
 | [engo](https://github.com/EngoEngine/engo) | **1193** | **97**  | Engo is an open-source 2D game engine written in Go. |
 | [termloop](https://github.com/JoelOtter/termloop) | **1110** | **71**  | Terminal-based game engine for Go, built on top of Termbox |
@@ -201,4 +201,4 @@
 | [book](https://github.com/GoBootcamp/book) | **253** | **72**  | Source code of the companion book/website |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **182** | **72**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2020-04-12T17:49:53Z*
+*Last Update: 2020-04-12T18:25:34Z*
