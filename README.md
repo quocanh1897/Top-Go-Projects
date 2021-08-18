@@ -128,7 +128,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [gin](https://github.com/gin-gonic/gin) | **50598** | **5732**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [gin](https://github.com/gin-gonic/gin) | **50599** | **5732**  | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
 | [iris](https://github.com/kataras/iris) | **21046** | **2283**  | The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 | |
 | [echo](https://github.com/labstack/echo) | **20460** | **1820**  | High performance, minimalist Go web framework |
 | [fasthttp](https://github.com/valyala/fasthttp) | **15781** | **1299**  | Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http |
@@ -202,4 +202,4 @@
 | [book](https://github.com/GoBootcamp/book) | **279** | **81**  | Source code of the companion book/website |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **263** | **114**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2021-08-18T06:59:20Z*
+*Last Update: 2021-08-18T07:00:35Z*
