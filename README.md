@@ -15,7 +15,7 @@
 
 | Repo | Stars  |  Forks  |  Description |
 | ---- | :----: | :-----: | ------------ |
-| [cobra](https://github.com/spf13/cobra) | **22796** | **1933**  | A Commander for modern Go CLI interactions |
+| [cobra](https://github.com/spf13/cobra) | **22797** | **1933**  | A Commander for modern Go CLI interactions |
 | [cli](https://github.com/urfave/cli) | **16384** | **1432**  | A simple, fast, and fun package for building command line apps in Go |
 | [kingpin](https://github.com/alecthomas/kingpin) | **3105** | **236**  | CONTRIBUTIONS ONLY: A Go (golang) command line and flag parser |
 | [go-flags](https://github.com/jessevdk/go-flags) | **2002** | **245**  | go command line option parser |
@@ -202,4 +202,4 @@
 | [book](https://github.com/GoBootcamp/book) | **279** | **81**  | Source code of the companion book/website |
 | [Go-Design-Patterns](https://github.com/PacktPublishing/Go-Design-Patterns) | **263** | **114**  | This is the code repository for the book, Go Design Patterns, published by Packt |
 
-*Last Update: 2021-08-19T06:59:59Z*
+*Last Update: 2021-08-19T07:01:14Z*
