@@ -59,8 +59,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	username := strings.Split(accessToken, ":")[0]
-	password := strings.Split(accessToken, ":")[1]
 	// bar := progressbar.New(141)
 	// bar.RenderBlank()
 	writeTitle()
@@ -80,20 +78,14 @@ func main() {
 				Description: url,
 			}
 			repos = append(repos, header)
-			// fmt.Printf("%v\n", header.Description)
-			// bar.Add(1)
 		}
 
 		idx := strings.Index(url, "https://github.com/")
 		if idx != -1 {
-			// idx2 := strings.Index(url, "\n")
-			// fmt.Println(url[idx:])
-			// bar.Add(1)
+			fmt.Println(url[idx:])
 
 			url := fmt.Sprintf("https://api.github.com/repos/%s", url[idx+19:])
-			// // fmt.Println(req)
 
-			// res, err := http.Get(req)
 			client := &http.Client{
 				Timeout: time.Second * 30,
 			}
@@ -102,7 +94,7 @@ func main() {
 				fmt.Println(err)
 			}
 
-			req.SetBasicAuth(username, password)
+			req.Header.Set("Authorization", "token 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")
 			res, err := client.Do(req)
 			if err != nil {
 				fmt.Println(err)
@@ -116,7 +108,6 @@ func main() {
 				fmt.Println(err)
 			}
 			repos = append(repos, repo)
-			// fmt.Printf("Repository: %v\n", repo)
 
 			defer res.Body.Close()
 		}
