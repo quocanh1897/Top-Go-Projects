@@ -10,8 +10,6 @@ import (
 	"strings"
 	"time"
 	"unicode"
-
-	"github.com/schollz/progressbar"
 )
 
 // Repo describes a Github repository with additional field, last commit date
@@ -61,8 +59,10 @@ func main() {
 		os.Exit(1)
 	}
 
-	bar := progressbar.New(141)
-	bar.RenderBlank()
+	username := strings.Split(accessToken, ":")[0]
+	password := strings.Split(accessToken, ":")[1]
+	// bar := progressbar.New(141)
+	// bar.RenderBlank()
 	writeTitle()
 
 	byteContents, err := ioutil.ReadFile("list.repo")
@@ -81,19 +81,29 @@ func main() {
 			}
 			repos = append(repos, header)
 			// fmt.Printf("%v\n", header.Description)
-			bar.Add(1)
+			// bar.Add(1)
 		}
 
 		idx := strings.Index(url, "https://github.com/")
 		if idx != -1 {
 			// idx2 := strings.Index(url, "\n")
 			// fmt.Println(url[idx:])
-			bar.Add(1)
+			// bar.Add(1)
 
-			req := fmt.Sprintf("https://api.github.com/repos/%s?access_token=%s", url[idx+19:], accessToken)
-			// fmt.Println(req)
+			url := fmt.Sprintf("https://api.github.com/repos/%s", url[idx+19:])
+			// // fmt.Println(req)
 
-			res, err := http.Get(req)
+			// res, err := http.Get(req)
+			client := &http.Client{
+				Timeout: time.Second * 30,
+			}
+			req, err := http.NewRequest("GET", url, nil)
+			if err != nil {
+				fmt.Println(err)
+			}
+
+			req.SetBasicAuth(username, password)
+			res, err := client.Do(req)
 			if err != nil {
 				fmt.Println(err)
 			}
@@ -108,6 +118,7 @@ func main() {
 			repos = append(repos, repo)
 			// fmt.Printf("Repository: %v\n", repo)
 
+			defer res.Body.Close()
 		}
 
 		if len(url) <= 1 {
@@ -137,7 +148,7 @@ func getAccessToken() string {
 }
 
 func writeTitle() {
-	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
+	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -147,7 +158,7 @@ func writeTitle() {
 }
 
 func saveRanking(repos []Repo) {
-	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
+	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_APPEND, 0666)
 	defer readme.Close()
 	if err != nil {
 		fmt.Println(err)
@@ -163,7 +174,7 @@ func saveRanking(repos []Repo) {
 }
 
 func writeFooter() {
-	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
+	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Println(err)
 	}
