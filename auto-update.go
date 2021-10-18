@@ -93,8 +93,9 @@ func main() {
 			if err != nil {
 				fmt.Println(err)
 			}
+			token := "token " + accessToken
 
-			req.Header.Set("Authorization", "token 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")
+			req.Header.Set("Authorization", token)
 			res, err := client.Do(req)
 			if err != nil {
 				fmt.Println(err)
