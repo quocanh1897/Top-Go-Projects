@@ -148,7 +148,7 @@ func getAccessToken() string {
 }
 
 func writeTitle() {
-	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
+	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0666)
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -158,7 +158,7 @@ func writeTitle() {
 }
 
 func saveRanking(repos []Repo) {
-	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_APPEND, 0666)
+	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
 	defer readme.Close()
 	if err != nil {
 		fmt.Println(err)
@@ -174,7 +174,7 @@ func saveRanking(repos []Repo) {
 }
 
 func writeFooter() {
-	readme, err := os.OpenFile("README.md", os.O_RDWR|os.O_APPEND, 0666)
+	readme, err := os.OpenFile("README2.md", os.O_RDWR|os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Println(err)
 	}
